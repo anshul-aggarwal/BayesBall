@@ -1,0 +1,31 @@
+Total Test Cases Found: 7
+----------------------------------
+Running Test Case: 01
+Correct Answer
+----------------------------------
+----------------------------------
+Running Test Case: 02
+Correct Answer
+----------------------------------
+----------------------------------
+Running Test Case: 03
+Correct Answer
+----------------------------------
+----------------------------------
+Running Test Case: 04
+Correct Answer
+----------------------------------
+----------------------------------
+Running Test Case: 05
+Correct Answer
+----------------------------------
+----------------------------------
+Running Test Case: 06
+Correct Answer
+----------------------------------
+----------------------------------
+Running Test Case: 07
+Correct Answer
+----------------------------------
+Total Correct Answers: 7
+Total Wrong Asnwers: 0
