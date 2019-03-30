@@ -18,7 +18,7 @@ echo "Running Test Case: $testCaseNumber"
 cp "test-cases/$testCaseNumber-graph.txt" "graph.txt"
 cp "test-cases/$testCaseNumber-queries.txt" "queries.txt"
 cp "test-cases/$testCaseNumber-ans.txt" "ans.txt"
-python3 bayes-ball.py > generatedAns.txt
+python3 A0191501R_A0191496R.py > generatedAns.txt
 diff -q generatedAns.txt ans.txt 1>/dev/null
 if [[ $? == "0" ]]
 then

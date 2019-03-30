@@ -77,7 +77,7 @@ def getNodes_Directions(graph, X): #Check logic validity
         #Children
         if len(graph[node]) > 0:
             nodes_directions.append((node, 0))
-
+        
         #Parents
         node_parents = parents(node, graph)
         if len(node_parents) > 0:
@@ -98,10 +98,10 @@ def is_independent(graph, X, Y, Z):
         if node not in Ancestors:
             L_to_be_visited.extend(parents(node, graph))
         Ancestors.append(node)
-
+        
 
     #Phase 2
-    L_to_be_visited = getNodes_Directions(graph, X)       #List L in Algorithm - (node,direction) to be visited
+    L_to_be_visited = getNodes_Directions(graph, X)       #List L in Algorithm - (node,direction) to be visited   
     Visited = []      #List V in Algorithm - (node,direction) marked as visited
     Reachable = []      #List R in Algorithm - nodes reachable via active trail
 
